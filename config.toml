@@ -27,7 +27,7 @@ weight = 5
 [[menu.shortcuts]]
 name = "<i class='fas fa-comment-alt'></i> Советы для новичков"
 identifier = "gd"
-url = "https://gdpalace.wordpress.com/"
+url = "https://dtf.ru/gamedev/10998-gamemaker-sovety-dlya-novichkov"
 weight = 10
 
 [[menu.shortcuts]]
