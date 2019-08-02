@@ -1,0 +1,49 @@
+baseURL = "https://darkpro1337.github.io/gml-guide/"
+languageCode = "en-us"
+title = "GML: Руководство для новичков"
+theme = "hugo-theme-learn"
+publishDir = "docs"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[blackfriday]
+hrefTargetBlank = true
+
+[params]
+author = "DarkPro1337"
+description = ""
+showVisitedLinks = true
+disableLanguageSwitchingButton = true
+themeVariant = "mine"
+disableInlineCopyToClipBoard = true
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-gamepad'></i> GameDev Palace"
+identifier = "og"
+url = "https://gdpalace.wordpress.com/"
+weight = 5
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-comment-alt'></i> Советы для новичков"
+identifier = "gd"
+url = "https://gdpalace.wordpress.com/"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-steam'></i> Руководство в Steam"
+identifier = "st"
+url = "https://steamcommunity.com/sharedfiles/filedetails/?id=1140018988"
+weight = 15
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github репо"
+identifier = "ds"
+url = "https://github.com/DarkPro1337/gml-guide"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-telegram-plane'></i> Написать автору"
+identifier = "tg"
+url = "https://telegram.me/DarkPro1337"
+weight = 25
